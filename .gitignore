@@ -1,0 +1,52 @@
+# Build Folders
+bin/
+obj/
+out/
+
+# Dependencies
+*.dll
+*.exe
+*.pdb
+*.so
+*.dylib
+*.a
+*.lib
+
+# Visual Studio Code
+.vscode/
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+
+# Logs and Debugging
+*.log
+*.tlog
+*.svclog
+
+# User-specific Files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Config Files
+appsettings.Development.json
+secrets.json
+
+# NuGet Packages
+*.nupkg
+packages/
+project.lock.json
+.nuget/
+
+# Entity Framework Migrations
+Migrations/
+
+# System-specific files
+.DS_Store
+Thumbs.db
+
+# If using Docker
+docker-compose.override.yml
+.env
